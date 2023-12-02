@@ -12,7 +12,7 @@ body{
     background-color: var(--cor-de-fundo-do-body);
 }
 :root{
-    --cor-de-fundo-do-body: rgb(230, 230, 230);
+    --cor-de-fundo-do-body: #ffe8d4;
     --cor-das-informacoes-do-perfume:  #c4c4c9;
     --cor-dos-precos-e-do-botao: hsl(158, 36%, 37%);
 }
@@ -43,6 +43,9 @@ main .informacao{
 
 main .informacao h2{
     margin-bottom: 20px;
+    font-size: 20PX;
+    
+    font-family: 'Saira Extra Condensed', sans-serif;
 }
 main .informacao h1{
     margin-bottom: 20px;
