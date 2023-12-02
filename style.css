@@ -149,13 +149,9 @@ main .informacao button:hover{
     }
 }
 @media (max-width: 1440px){
-    .attribution{
-        background-color: #ffff;
+    .attribution{ 
         padding: 5px;
-        border-radius: 10px;
         font-size: 10px;
-        /* margin-top: 20px; */
-        font-family: 'Montserrat', sans-serif;
         position: absolute;
         bottom: 0;
         font-size: 14px;
@@ -170,6 +166,5 @@ main .informacao button:hover{
         padding: 5px;
         background-color: rgba(88, 88, 212, 0.26);
         border-radius: 5px;
-        transition: 0.6s ease-in-out;
     }
 }
