@@ -22,14 +22,14 @@ main{
     height: 525px;
     background-color: #ffff;
     flex-direction: row;
-    border-radius: 10px;
+    border-radius: 20px;
     
 }
 
 main .img img{
     width: 350px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 main .informacao h1{
     font-family: 'Fraunces', serif;
@@ -43,16 +43,16 @@ main .informacao{
 
 main .informacao h2{
     margin-bottom: 20px;
-    font-size: 20PX;
+    font-size: 15PX;
+    font-family: 'Montserrat', sans-serif;
     
-    font-family: 'Saira Extra Condensed', sans-serif;
 }
 main .informacao h1{
     margin-bottom: 20px;
     font-size: 40px;
 }
 main .informacao p{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 14px;
     color: var(--cor-das-informacoes-do-perfume);
 }
@@ -82,6 +82,7 @@ main .informacao button{
     font-family: 'Montserrat', sans-serif;
     color: white;
     transition: 0.5s ease-in-out;
+   
    
 }
 
@@ -141,7 +142,7 @@ main .informacao button:hover{
         width: 350px;
         margin-top: 20px;
         position: absolute;
-        margin-top: 100px;
+        margin-top: 200px;
         bottom:0 auto;
     }
     ..attribution a{
