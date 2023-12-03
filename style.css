@@ -11,6 +11,23 @@ body{
     height: 100vh;
     background-color: var(--cor-de-fundo-do-body);
 }
+#mensagem {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffff;
+    border: 1px solid #8b8686;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    transition: 0.8s;
+    
+}
 :root{
     --cor-de-fundo-do-body: #ffe8d4;
     --cor-das-informacoes-do-perfume:  #c4c4c9;
@@ -136,7 +153,7 @@ main .informacao button:hover{
         border-top-right-radius: 10px;
     }
     .attribution {
-        font-size: 0;
+        display:none;
         padding: 0;
         background-color: rgb(247, 248, 246);
         width: 350px;
@@ -165,7 +182,8 @@ main .informacao button:hover{
     }
 }
 @media (max-width: 1440px){
-    .attribution{ 
+    .attribution{
+        
         padding: 5px;
         font-size: 10px;
         position: absolute;
@@ -185,12 +203,12 @@ main .informacao button:hover{
     }
 }
 @media (max-width:414px){
-    .attribution{
+    /* .attribution{
         background-color: rgba(255, 255, 255, 0);
         color: rgba(255, 0, 0, 0);
         margin-bottom: 120px;
     }
     .attribution a{
         color: rgba(255, 255, 255, 0);
-    }
+    } */
 }
